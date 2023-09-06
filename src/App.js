@@ -1,10 +1,14 @@
 import "./App.css";
-import Wellcome from "./Components/Wellcome";
+import LogIn from "./Components/LogIn";
+import SignUp from "./Components/SignUp";
+import Welcome from "./Components/Welcome";
 
 function App() {
   return (
     <div className="App">
-      <Wellcome />
+      <Welcome />
+      <SignUp />
+      <LogIn />
     </div>
   );
 }

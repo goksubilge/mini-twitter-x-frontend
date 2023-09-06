@@ -1,5 +1,9 @@
-.App {
-  text-align: center;
-  max-height: fit-content;
-  max-width: fit-content;
+
+.select-date {
+    @apply flex justify-between gap-5 pb-16 sm:flex-col
+}
+
+.dropdowns{
+    @apply border border-[#00000033] rounded-md py-6 pl-5
+
 }

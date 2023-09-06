@@ -20,6 +20,10 @@ module.exports = {
       sm: { max: "639px" },
       // => @media (max-width: 639px) { ... }
     },
+    fontFamily: {
+      rob: ["Roboto", "sans-serif"],
+      seg: ["Segoe UI", "sans-serif"],
+    },
   },
   plugins: [],
 };
